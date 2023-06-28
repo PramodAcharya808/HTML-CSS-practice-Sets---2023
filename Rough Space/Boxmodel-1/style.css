@@ -1,0 +1,23 @@
+body{
+    background-color: lightgrey;
+}
+
+#a1{
+    color: white;
+    background-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: solid;
+    border-color:red;
+
+}
+
+#a2{
+    text-align: center;
+    height: 150px;
+    background-color: aqua;
+    font-weight: bolder;
+    border-style:solid;
+    border-radius: 15px;
+    margin: 10px;
+
+}

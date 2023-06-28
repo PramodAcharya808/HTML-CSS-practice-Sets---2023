@@ -1,0 +1,20 @@
+nav{
+    background-color: rgb(27, 29, 31);
+    height: 60px;
+}
+a {
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: white;
+    margin-right: 200px;
+}
+
+#amazon{
+    color: orange;
+
+}
+
+button{
+    color: white;
+    background-color: orange;
+}
