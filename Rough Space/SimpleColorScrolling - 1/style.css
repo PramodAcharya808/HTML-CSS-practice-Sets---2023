@@ -20,9 +20,18 @@ ul li{
 
 #container{
     height: 100vh;
-    width: 100%;    
+    width: 100%;
     scroll-behavior: smooth;
     overflow-y:scroll ;
+}
+
+#head{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(45deg ,red,blue,green,yellow);
+    color: goldenrod;
 }
 
 #container div{
@@ -43,7 +52,7 @@ ul li{
 
 #container div#GREEN{
     color:white;
-    background-color: green;
+  background-color: green;
 }
 
 #container div#YELLOW{
@@ -51,7 +60,7 @@ ul li{
     background-color: yellow;
 }
 
-#container h1{
+.pages h1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -59,8 +68,21 @@ ul li{
     text-align: center;
     margin: 0;
     padding: 0;
-    font-size: 10rem;
+    font-size: 10em;
 }
+
+/* In case if you want to use ID selector section for any modification you can enable this section of the CSS */
+
+/* #container h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+} */
 
 ul li a{
     display: block;
