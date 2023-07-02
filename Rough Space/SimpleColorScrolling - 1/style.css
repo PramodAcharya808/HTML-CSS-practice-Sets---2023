@@ -101,6 +101,6 @@ ul li a{
 }
 
 ul li a:hover{
-    color: white;
-    background-color: black;
+    color: darkgreen;
+    background-color: teal;
 }
