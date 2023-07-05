@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+    border: solid 1px black ;
+    width: 50px;
+    height: 50px;
+}
+
+#container-1, #container-2, #container-3, #container-4, #container-5{
+    width: 800px;
+    height: 200px;
+}
+
+#box1{
+    background-color: teal;
+}#box2{
+    background-color: red;
+}#box3{
+    background-color: blue;
+}#box4{
+    background-color: green;
+}#box5{
+    background-color: purple;
+}
+
