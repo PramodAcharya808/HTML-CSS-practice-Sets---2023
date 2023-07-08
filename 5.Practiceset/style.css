@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     list-style:none;
     text-align: center;
@@ -30,13 +32,14 @@ ul li{
     justify-content: center;
     /* cross axis alignment */
     align-items: center;
-
     background-color: teal;
     height: 400px;
     width: 400px;
+    z-index: -10;
 }
 
 #innerbox{
+    display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,4 +48,12 @@ ul li{
     height: 200px;
     width: 200px;
     /* align-self: flex-end; */
+}
+
+#container-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
