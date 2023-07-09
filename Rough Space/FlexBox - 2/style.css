@@ -38,10 +38,35 @@ div{
 
 #container3{
     height: 250px;
-    width: 200px;
+    width: 600px;
+    position: relative;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    align-content: center; 
+    align-items: center; 
 }
+
+.inboxes{
+    position: absolute;
+}
+
+.tl{
+    top: 0;
+    left: 0;
+}
+
+.tr{
+    top: 0;
+    right: 0;
+}
+
+.br{
+    bottom: 0;
+    right: 0;
+}
+
+.bl{
+    bottom: 0;
+    left: 0;
+}
+

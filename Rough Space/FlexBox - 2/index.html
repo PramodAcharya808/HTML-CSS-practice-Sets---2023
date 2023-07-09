@@ -18,11 +18,11 @@ align-items: center;
 justify-content: space-evenly;
 margin: 5px;
 </pre>
-<div id="container1">
-    <div id="box1.1">1</div>
-    <div id="box1.2">2</div>
-    <div id="box1.3">3</div>
-        <div id="box1.4">4</div>
+    <div id="container1">
+        <div class="box1" id="box1-1">1</div>
+        <div class="box2" id="box1-2">2</div>
+        <div class="box3" id="box1-3">3</div>
+        <div class="box4" id="box1-4">4</div>
     </div>
 
     <!-- ALIGN CONTENT-->
@@ -33,21 +33,29 @@ align-content: center;
 margin: 5px;
     </pre>
     <div id="container2">
-        <div id="box2.1">1</div>
-        <div id="box2.2">2</div>
-        <div id="box2.3">3</div>
-        <div id="box2.4">4</div>
+        <div class="box1" id="box2-1">1</div>
+        <div class="box2" id="box2-2">2</div>
+        <div class="box3" id="box2-3">3</div>
+        <div class="box4" id="box2-4">4</div>
     </div>
 
     <!-- ALIGN SELF-->
-    <pre>
+    <pre>Container 3
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center; 
+.inboxes, position:absolute;
+.tl.tr.br.bl.ce = possitions are set respectively
             </pre>
-            <div id="container3">
-                <div id="box3.1">1</div>
-                <div id="box3.2">2</div>
-                <div id="box3.3">3</div>
-                <div id="box3.4">4</div>
-            </div>
+    <div id="container3">
+        <div class="inboxes tl box1"id="box3-1">1</div>
+        <div class="inboxes tr box2"id="box3-2">2</div>
+        <div class="inboxes br box3"id="box3-3">3</div>
+        <div class="inboxes bl box4"id="box3-4">4</div>
+        <div class="inboxes ce box5"id="box3-5">5</div>
+    </div>
 </body>
 
 </html>
