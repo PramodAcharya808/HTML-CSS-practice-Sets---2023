@@ -1,9 +1,43 @@
-div{
-    height: 300px;
-    width: 300px;
-    border: 10px 10px 10px solid black;
-    /* border-top: 10px solid ;
-    border-right: 10px solid ;
-    border-bottom: 10px solid ; */
-    border-radius: 50%;
+@keyframes loader {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
+
+#loader {
+    height: 100px;
+    width: 100px;
+    /* border: 20px solid black; */
+    border: 20px solid black;
+    border-top: 20px solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    animation: loader 1s steps(90) 0s infinite normal;
+}
+
+#button{ 
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    /* background-color: blue; */
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    cursor: pointer;
+}
+
+#button:active{
+    transition: all;
+    transition-duration: 70ms;
+    transition-timing-function: ease-in-out;
+    transform: scale(0.9);
+    box-shadow: 7px 7px 7px grey;
+}
+
