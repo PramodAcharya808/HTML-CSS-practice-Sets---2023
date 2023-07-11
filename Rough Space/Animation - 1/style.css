@@ -1,0 +1,15 @@
+img{
+    height: 40px;
+    /* width: 40px; */
+}
+
+#transition{
+    position: fixed;
+    left:0;
+    border: 2px solid black;
+}
+
+#transition:active{
+    transform: translate();
+    transition-duration: 2s;
+}
