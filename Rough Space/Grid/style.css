@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 2rem;
+    grid-auto-rows: minmax(100px, autofill);
+    grid-auto-columns: minmax(100px, autofill);
+}
+
+.items {
+    background-color: peachpuff;
+    border: 2px solid grey;
+}
+
+#box-1 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
